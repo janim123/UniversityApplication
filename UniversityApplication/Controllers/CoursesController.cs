@@ -120,7 +120,7 @@ namespace UniversityApplication.Controllers
             };
 
             ViewData["Teachers"] = new SelectList(_context.Set<Teacher>(), "teacherId", "fullName");
-            //ViewData["Students"] = new SelectList(_context.Set<Student>(), "Id", "fullName", course.enrollments);
+            ViewData["Students"] = new SelectList(_context.Set<Student>(), "Id", "fullName", course.Students);
             return View(viewmodel);
         }
 

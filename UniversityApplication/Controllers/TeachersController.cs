@@ -10,7 +10,7 @@ using UniversityApplication.Data;
 using UniversityApplication.Models;
 using UniversityApplication.ViewModels;
 
-namespace School_Management_System_Application.Controllers
+namespace UniversityApplication.Controllers
 {
     public class TeachersController : Controller
     {

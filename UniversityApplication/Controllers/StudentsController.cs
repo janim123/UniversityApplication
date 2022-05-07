@@ -9,7 +9,7 @@ using UniversityApplication.Data;
 using UniversityApplication.Models;
 using UniversityApplication.ViewModels;
 
-namespace School_Management_System_Application.Models
+namespace UniverstyApplication.Models
 {
     public class StudentsController : Controller
     {
@@ -255,6 +255,6 @@ namespace School_Management_System_Application.Models
 
             return View(studentFilter);
         }
-        // GET: Students/EditPicture/5
+       
     }
 }
